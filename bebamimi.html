@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BebaMimi</title>
+    <link rel="stylesheet" type="text/css" href="bebamimi.css">
+  </head>
+  <body>
+    <div class="header">
+      <img src="logo.jpg" alt="Taxi Company Logo">
+      <h1>Book Your Taxi</h1>
+    </div>
+    <form>
+      <label for="pickup-location">Pickup Location:</label>
+      <input type="text" id="pickup-location" name="pickup-location">
+      <br>
+      <label for="dropoff-location">Dropoff Location:</label>
+      <input type="text" id="dropoff-location" name="dropoff-location">
+      <br>
+      <label for="pickup-date">Pickup Date:</label>
+      <input type="date" id="pickup-date" name="pickup-date">
+      <br>
+      <label for="pickup-time">Pickup Time:</label>
+      <input type="time" id="pickup-time" name="pickup-time">
+      <br>
+      <button onclick="bookTaxi()" class="book-button">Book Taxi</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
