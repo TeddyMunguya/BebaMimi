@@ -22,3 +22,4 @@ function bookTaxi() {
     alert("Taxi booked!\nPickup location: " + pickupLocation + "\nDropoff location: " + dropoffLocation + "\nPickup date: " + pickupDate + "\nPickup time: " + pickupTime);
   }
   
+  
